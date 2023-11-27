@@ -78,4 +78,52 @@ header {
   display: none;
 }
 /* End header styling */
+
+/* Start main styling */
+main {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+/* Start hero styling */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background-color: hsl(0, 0%, 85%);
+  padding: 2rem 1.5rem;
+}
+
+.hero-left {
+  width: 60%;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 40%;
+  padding-right: 5rem;
+}
+
+.hero-title {
+  font-size: 3.3rem;
+}
+
+.hero-description {
+  font-size: 1.7rem;
+}
+
+.hero-btn {
+  text-align: center;
+  padding: 1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 29%);
+  max-width: 25rem;
+}
+
+.hero-btn:hover {
+  background-color: hsl(0, 0%, 61%);
+}
+/* End hero styling */
+/* End main styling */
 /* End desktop responsive */
