@@ -42,7 +42,7 @@ header {
   flex-direction: column;
   max-width: 90rem;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding-inline: 1.5rem;
 }
 
 .desktop-nav {
@@ -56,6 +56,10 @@ header {
   align-items: center;
   width: 2rem;
   aspect-ratio: 1;
+}
+
+.logo {
+  height: 4rem;
 }
 
 .logo-name {
@@ -369,6 +373,7 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+
   .nav-link-container {
     justify-content: space-around;
     align-items: center;
@@ -377,6 +382,17 @@ footer {
   .nav-link-container > li {
     display: flex;
     align-items: center;
+  }
+
+  .nav-link-container > li > a {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+
+  .nav-link-container > li > a > img {
+    width: 2rem;
+    aspect-ratio: 1;
   }
   /* End header styling */
   /* Start main styling */
