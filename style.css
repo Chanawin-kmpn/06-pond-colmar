@@ -17,3 +17,65 @@ video {
   display: block;
   max-width: 100%;
 }
+
+/* Start desktop responsive */
+/* Global tag reset */
+a {
+  color: hsl(0, 0%, 29%);
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* Global tag reset */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: hsl(0, 0%, 30%);
+  cursor: default;
+}
+/* Start header styling */
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  aspect-ratio: 1;
+}
+
+.logo-name {
+  color: hsl(0, 0%, 64%);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.logo-name > span {
+  font-weight: 700;
+  color: hsl(0, 0%, 29%);
+}
+
+.nav-link-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+/* End header styling */
+/* End desktop responsive */
