@@ -416,6 +416,7 @@ footer {
   }
 
   .info-right {
+    align-items: center;
     width: 100%;
     border: none;
     padding: 1rem 1rem 2rem;
@@ -522,4 +523,13 @@ footer {
   }
   /* End thesis styling */
   /* End main styling */
+  /* Start footer styling */
+  footer {
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  .footer-right {
+    display: none;
+  }
+  /* End footer styling */
 } /* End mobile responsive */
