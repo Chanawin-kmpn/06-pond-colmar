@@ -359,3 +359,25 @@ footer {
 }
 /* End footer  styling*/
 /* End desktop responsive */
+/* Start mobile responsive */
+@media (max-width: 768px) {
+  /* Start header styling */
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-link-container {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-link-container > li {
+    display: flex;
+    align-items: center;
+  }
+  /* End header styling */
+} /* End mobile responsive */
