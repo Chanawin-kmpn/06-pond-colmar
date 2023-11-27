@@ -464,5 +464,40 @@ footer {
   }
 
   /* End infomation styling */
+  /* Start course styling */
+  .course-section {
+    gap: 1.5Xrem;
+    background-color: hsl(300, 5%, 96%);
+    border: 1px solid hsl(180, 2%, 92%);
+    padding: 2rem 1rem;
+  }
+
+  .course-container {
+    gap: 0.5rem;
+  }
+
+  .desktop-course {
+    display: none;
+  }
+
+  .mobile-course {
+    display: flex;
+  }
+
+  .course-card-mobile {
+    width: 100%;
+    background-color: hsl(0, 0%, 85%);
+    padding: 1.5rem;
+    transition: all 0.2s ease-out;
+  }
+
+  .course-card-mobile:hover {
+    background-color: hsl(0, 0%, 61%);
+  }
+
+  .course-link-mobile {
+    font-size: 1.5rem;
+  }
+  /* End course styling */
   /* End main styling */
 } /* End mobile responsive */
