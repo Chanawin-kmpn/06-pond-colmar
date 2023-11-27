@@ -119,6 +119,7 @@ main {
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 29%);
   max-width: 25rem;
+  transition: background-color 0.2s ease-out;
 }
 
 .hero-btn:hover {
@@ -145,6 +146,7 @@ main {
 }
 
 .info-main-description {
+  font-size: 1.3rem;
   font-weight: 300;
   margin-block: 1.5rem;
 }
@@ -300,7 +302,7 @@ main {
 
 .thesis-description {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .thesis-right {
@@ -309,7 +311,7 @@ main {
   width: 40%;
 }
 
-.thesis-aside-container > li {
+.thesis-aside-container > li > a.thesis-aside-link {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -317,7 +319,7 @@ main {
   transition: background-color 0.2s ease-out;
 }
 
-.thesis-aside-container > li:hover {
+.thesis-aside-container > li:hover > a.thesis-aside-link {
   background-color: hsl(0, 0%, 85%);
 }
 
@@ -334,8 +336,26 @@ main {
 }
 
 .thesis-aside-content > .thesis-description {
+  color: hsl(0, 0%, 46%);
   font-weight: 300;
 }
 /* End thesis styling */
 /* End main styling */
+
+/* Start footer  styling*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(0, 0%, 46%);
+  font-weight: 400;
+  max-width: 90rem;
+  border-top: 1px solid hsl(180, 4%, 89%);
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+/* End footer  styling*/
 /* End desktop responsive */
