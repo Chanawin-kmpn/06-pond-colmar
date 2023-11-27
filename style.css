@@ -380,4 +380,31 @@ footer {
     align-items: center;
   }
   /* End header styling */
+  /* Start main styling */
+  /* Start hero styling */
+  .hero-section {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-right {
+    gap: 0;
+    padding: 2rem 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.5rem;
+    margin-block: 2rem 1.5rem;
+  }
+  /* End hero styling */
+  /* End main styling */
 } /* End mobile responsive */
