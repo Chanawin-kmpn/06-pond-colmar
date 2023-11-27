@@ -365,6 +365,11 @@ footer {
 /* Start mobile responsive */
 @media (max-width: 768px) {
   /* Start header styling */
+  header {
+    position: sticky;
+    top: 0;
+    background-color: hsl(0, 0%, 100%);
+  }
   .desktop-nav {
     display: none;
   }
